@@ -1,0 +1,44 @@
+.center{
+    width: 100%;
+    /* height: 450px; */
+    background: #fff;
+    border-top: 0.01rem solid #fefefe;
+}
+.center h1{
+    color: #000;
+    font-size: 0.20rem;
+    font-weight: 500;
+    /* margin-top: 0.8rem; */
+    padding: 0.2rem 0;
+}
+.center ul{
+    /* margin-top: 0.5rem; */
+}
+.center ul li a{
+    color: #000;
+}
+.center ul li {
+    color: #000;
+    font-size: 0.14rem;
+    padding: 0.05rem 0 ;
+    /* width: 70%; */
+}
+.texts{
+    font-size: 0.14rem;
+    color: #000;
+    margin-top: 0.2rem;
+}
+.center span{
+    display: block;
+    font-size: 0.14rem;
+    color: #000;
+    margin-top: 0.6rem;
+}
+.center img{
+    width: 100%; 
+    height: 2rem;
+    margin-top:0.5rem;
+}
+.moves{
+    justify-content: space-between;
+}

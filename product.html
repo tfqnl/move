@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/comm.css">
+    <link rel="stylesheet" href="./css/bottom.css">
+    <link rel="stylesheet" href="./css/product.css">
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <title>Document</title>
+    <script>
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    docEl.style.fontSize = 100 * (clientWidth / 320) + 'px';
+                };
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+    </script>
+</head>
+
+<body>
+    <div class="nav">
+        <span>XXXX科技有限公司</span>
+    </div>
+    <div class="box">
+        <img src="./img/drop.png" alt="">
+        <ul class="hide_box">
+            <li><a href="./indexmove.html">首页丨Home</a></li>
+            <li><a href="./firmmove.html">公司介绍丨Firm</a></li>
+            <li><a href="./product.html">产品介绍丨Product</a></li>
+            <li><a href="./relationmove.html">联系方式丨Contact</a></li>
+        </ul>
+    </div>
+    <div class="referral">
+        <div class="wrap flex move">
+            <div class="text">
+                <h1>XXXX科技有限公司</h1>
+                <p>XXXX科技有限公司是一家专业提供建筑机械设备的租赁出租等服务的公司，公司现有大量钢管、搭机、扣件、顶托、卸料平台、吊机、装载机等工地常用设备供广大施工方选择。设备齐全、价格合理!</p>
+                <ul>
+                    <li>
+                        <span>一.</span>
+                        <a href="#">
+                            公司始终秉承“服务第一、科学管理、持续改进、顾客满意”的企业方针，追求以人为本，精益求精的经营理念，竭诚为用户提供质优、经济的产品和用户满意的全方位服务。</a>
+                    </li>
+                    <li>
+                        <span>二.</span>
+                        <a href="#">
+                            公司始终秉承“服务第一、科学管理、持续改进、顾客满意”的企业方针，追求以人为本，精益求精的经营理念，竭诚为用户提供质优、经济的产品和用户满意的全方位服务。</a>
+                    </li>
+                    <li>
+                        <span>三.</span>
+                        <a href="#">
+                            公司始终秉承“服务第一、科学管理、持续改进、顾客满意”的企业方针，追求以人为本，精益求精的经营理念，竭诚为用户提供质优、经济的产品和用户满意的全方位服务。</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div class="product">
+        <span class="pro">主要产品</span>
+        <ul class="flex mean">
+            <li>
+                <img src="./img/fzzp.png" alt="">
+                <span class="texts">五金交电</span>
+                <span>批量定制，保证品质，提供零部件解决方案，可以配合研发，小批量生产。不锈钢2-6毫米厚板冲压有独到工艺、厚板冲压稳定、对棒材成型折弯压扁工艺研究透彻。</span>
+            </li>
+            <li>
+                <img src="./img/fzzp.png" alt="">
+                <span class="texts">五金交电</span>
+                <span>批量定制，保证品质，提供零部件解决方案，可以配合研发，小批量生产。不锈钢2-6毫米厚板冲压有独到工艺、厚板冲压稳定、对棒材成型折弯压扁工艺研究透彻。</span>
+            </li>
+        </ul>
+        <ul class="flex mean">
+            <li>
+                <img src="./img/fzzp.png" alt="">
+                <span class="texts">五金交电</span>
+                <span>批量定制，保证品质，提供零部件解决方案，可以配合研发，小批量生产。不锈钢2-6毫米厚板冲压有独到工艺、厚板冲压稳定、对棒材成型折弯压扁工艺研究透彻。</span>
+            </li>
+            <li>
+                <img src="./img/fzzp.png" alt="">
+                <span class="texts">五金交电</span>
+                <span>批量定制，保证品质，提供零部件解决方案，可以配合研发，小批量生产。不锈钢2-6毫米厚板冲压有独到工艺、厚板冲压稳定、对棒材成型折弯压扁工艺研究透彻。</span>
+            </li>
+        </ul>
+    </div>
+    <div class="bottoms">
+        <div class="put">
+            <p>XXXX科技有限公司</p>
+            <span>备案编号：津ICP备18007920号-1</span>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

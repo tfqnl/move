@@ -1,0 +1,44 @@
+.nav{
+    width: 100%;
+    height: 0.55rem;
+    background: #e13032;
+}
+.nav span{
+    display: block;
+    font-size: 0.3rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.5rem;
+}
+.box{
+    width: 100%;
+    height: 0.53rem;
+    background: #f7f7f7;
+    position: relative;
+}
+.box img{
+    width: 0.16rem;
+    height: 0.16rem;
+    position: absolute;
+    right: 0.1rem;
+    top: 0.2rem;
+}
+.hide_box{
+    width: 1.28rem;
+    height: 2.2rem;
+    background: #f7f7f7;
+    position: absolute;
+    right: 0;
+    top: 0.53rem;
+    display: none;
+}
+.hide_box li a{
+    color: #000;
+}
+.hide_box li{
+    text-align: center;
+    height: 0.53rem;
+    border: 0.01rem solid #f1eeee;
+    line-height: 0.53rem;
+    
+}

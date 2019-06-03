@@ -1,0 +1,21 @@
+.bottoms{
+    width: 100%;
+    background:#232940;
+    /* overflow: hidden; */
+    padding: 0.2rem 0 ;
+    /* margin-top: 20px; */
+}
+.put{
+    text-align: center;
+    /* margin-top: 30px; */
+}
+.put p{
+    font-size:0.12rem;
+    color: #fff;
+}
+.put span{
+    display: block;
+    font-size: 0.12rem;
+    color: #fff;
+    margin-top: 0.1rem;
+}

@@ -1,0 +1,133 @@
+.center{
+    width: 100%;
+    /* height: 600px; */
+    /* background: red; */
+}
+.center img{
+    width: 100%;
+    height: 100%;
+}
+.smallbox{
+    width: 100%;
+    height: 0.7rem;
+    background: #fff;
+}
+
+
+.brief{
+    width: 100%;
+    /* height: 486px; */
+    background: #f5f5f5;
+}
+.brief h1{
+    font-size: 0.20rem;
+    font-weight: 500;
+    color:#d9060c;
+    padding: 30px;
+    
+}
+.brief{
+    text-align: center;
+}
+.brief p{
+    /* width: 70%; */
+    margin: 0 auto;
+    color: #494949;
+    font-size: 0.14rem
+}
+.run{
+    width: 100%;
+    margin: 0 auto;
+}
+.brief ul li{
+    text-align: left;
+    padding: 0.1rem 0 ;
+    
+}
+.brief ul li a{
+    color: #494949;
+}
+.brief span{
+    display: block;
+    margin-top: 0.5rem;
+    color: #494949;
+}
+
+
+
+
+.firms{
+    width: 100%;
+    /* height: 600px; */
+    background: #fff;
+    border-top: 0.01rem solid #dcdcdc;
+}
+.text_firm{
+    color: #84060c;
+    font-size:0.16rem;
+    /* margin-left: 100px; */
+    margin-top: 0.5rem;
+}
+.trigon{
+    border-left: 0.04rem solid transparent;
+    border-right: 0.04rem solid transparent;
+    border-top: 0.04rem solid red;
+    display: block;
+    margin-top: 0.60rem;;
+    margin-left: 0.1rem;
+}
+.fun img{
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-top: 0.35rem;
+    margin-left:0.2rem;
+    z-index: 555;
+}
+.ball{
+    width: 0.1rem;
+    height:0.1rem;
+    border-radius: 1rem;
+    border: 0.02rem solid red;
+    margin-left: 1.2rem;
+    background: #fff;
+    z-index: 555;
+}
+.dot{
+    width: 0.04rem;
+    height: 0.04rem;
+    background: red;
+    margin: 0.03rem auto;
+    border-radius: 1rem;
+}
+.brand{
+    margin-top: 0.7rem;
+    height: 0.5rem;
+    line-height: 0.5rem;;
+    z-index: 555;
+}
+.brand span{
+    display: block;
+    width: 0.04rem;
+    height: 0.04rem;
+    background: #000;
+    border-radius: 1rem;
+     margin-top:0.05rem;
+   margin-left: 0.05rem;
+}
+.text_result{
+    font-size: 0.12rem;
+    color: #000;
+    margin-left: 0.05rem;
+    line-height:0.15rem;
+    
+}
+.potion{
+    position: relative;
+}
+.wire{
+    width: 0.01rem;
+    height:100%;
+    background: red;
+    position: absolute;
+    left:1.25rem; 
+}
