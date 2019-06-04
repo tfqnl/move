@@ -9,42 +9,88 @@
 }
 .product{
     width: 100%;
+}
+.product h2{
     text-align: center;
-    overflow: hidden;
-}
-.pro{
-    display: block;
-    margin-top: 0.2rem;
-    font-size: 0.20rem;
-    color: #000; 
-}
-.product ul li img{
-    display: block;
-    width: 0.65rem;
-    margin: 0 auto;
-}
-.product ul li span{
-    display: block;
+    padding: 0.4rem 0 0 0 ;
+    font-weight: 500;
+    font-size: 0.25rem;
 }
 .product ul{
-    width: 100%;
-    margin-top: 0.1rem;
+    margin-top: 0.3rem;
 }
-.product ul li {
-    width: 35%;
+.product ul li{
+    width: 33%;
+    text-align: center;
+    position: relative;
 }
-.texts{
-    font-size: 0.24rem;
-    padding: 0.05rem 0;
-    color: #504e4f;
+.product ul li img{
+    width: 1rem
 }
-.mean{
-    justify-content: space-around
+.product ul li p{
+    /* text-align: left; */
+    font-size: 0.16rem;
+    color: red;
+    
+}
+.product ul li h1{
+    font-size: 0.16rem;
+    font-weight: 500;
+    padding: 0.1rem 0;
+    color: #989898;
+}
+.product .pro{
+    display: block;
+    text-align: center;
+    margin-top: 0.2rem;
+    font-size: 0.2rem;
+}
+.means{
+    justify-content: space-between;
+}
+.ppd i{
+    font-size: 0.16rem;
+    color: red;
+    font-style: normal;
+}
+.ppd s{
+    font-size: 0.12rem;
+}
+.textst{
+      /* text-align: left; */
+      font-size: 0.16rem;
+      color: #989898;
+}
+.ball_hot{
+    width: 0.35rem;
+    height: 0.35rem;
+    border-radius: 1rem;
+    background-image:linear-gradient(120deg,#ff3149,#ff64a6);
+    color: #fff;
+    font-size: 0.12rem;
+    line-height:0.35rem;
+    position: absolute;
+    left:0px;
+    top: -0.15rem;
+    
+}
+.ball_dep{
+    width: 0.35rem;
+    height: 0.35rem;
+    border-radius: 1rem;
+    background-image: linear-gradient(120deg,#2e74f6,#56bdf9);
+    color: #fff;
+    font-size: 0.12rem;
+    line-height:0.35rem;
+    position: absolute;
+    left:0px;
+    top: -0.15rem;
+    
 }
 .bottom{
     width: 100%;
     height: 2.5rem;
-    background: #232940;
+    background: #999999;
     margin-top: 0.3rem;
 }
 .site{

@@ -1,44 +1,64 @@
 .center{
     width: 100%;
-    /* height: 450px; */
-    background: #fff;
-    border-top: 0.01rem solid #fefefe;
+    /* height: 600px; */
+    /* background: red; */
 }
-.center h1{
-    color: #000;
-    font-size: 0.20rem;
-    font-weight: 500;
-    /* margin-top: 0.8rem; */
-    padding: 0.2rem 0;
-}
-.center ul{
-    /* margin-top: 0.5rem; */
-}
-.center ul li a{
-    color: #000;
-}
-.center ul li {
-    color: #000;
-    font-size: 0.14rem;
-    padding: 0.05rem 0 ;
-    /* width: 70%; */
+.center img{
+    width: 100%;
+    /* height: 100%; */
 }
 .texts{
     font-size: 0.14rem;
     color: #000;
     margin-top: 0.2rem;
 }
-.center span{
-    display: block;
-    font-size: 0.14rem;
-    color: #000;
-    margin-top: 0.6rem;
-}
-.center img{
-    width: 100%; 
-    height: 2rem;
-    margin-top:0.5rem;
-}
+
 .moves{
     justify-content: space-between;
+}
+.contact_us{
+    width: 100%;
+    /* height: 5rem; */
+    margin-top: 0.2rem;
+}
+.top{
+    width: 100%;
+    height: 0.45rem;
+    /* background: green; */
+}
+.top img{
+    width: 0.3rem;
+    height: 0.3rem;
+}
+.top p{
+    font-size: 0.2rem;
+    margin-top: 0.1rem;
+}
+.border_one{
+    display: block;
+    width: 100%;
+    height: 0.01rem;
+    background: #ebebeb;
+    margin-top: 0.2rem;
+}
+.textbig{
+    width: 99%;
+    /* padding: 20px; */
+    border-left: 0.02rem  solid #ebebeb;
+    border-right: 0.02rem  solid #ebebeb;
+    border-bottom: 0.02rem  solid #ebebeb;
+    margin: 0 auto;
+     margin-top: 0.5rem;
+     position: relative;
+}
+.textbig p{
+    color: #323232;
+    padding:0.3rem 0;
+}
+.textbig img{
+    transform: rotate(180deg);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
 }
